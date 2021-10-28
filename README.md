@@ -14,6 +14,10 @@ Here is what I am using these days:
 - Python environments: Anaconda and Docker container locally
 - Prototyping: Visual Studio Code, Google Colabs, Jupyter notebooks
 
+## Practical intro to Deep Learning in 30 minute
+I put together a teaching class as intro to Deep learning and pytorch. 
+[deeplearning/Intro_to_Deep_Learning_30_minutes_class.ipynb](https://github.com/tomafischer/ai_geeks/blob/main/deeplearning/Intro_to_Deep_Learning_30_minutes_class.ipynb)
+
 ## Helper Tools
 ### Markdown guides  
 [Colab Markdown](https://colab.research.google.com/notebooks/markdown_guide.ipynb#scrollTo=Lhfnlq1Surtk)
