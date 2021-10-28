@@ -17,6 +17,15 @@ Here is what I am using these days:
 ## Helper Tools
 ### Markdown guides  
 [Colab Markdown](https://colab.research.google.com/notebooks/markdown_guide.ipynb#scrollTo=Lhfnlq1Surtk)
+
+
+# Datasets
+## Repositories
+
+https://archive.ics.uci.edu/ml/machine-learning-databases/
+
+https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv
+
 # Deep Learning
 
 
