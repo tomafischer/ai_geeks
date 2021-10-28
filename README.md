@@ -25,6 +25,12 @@ I put together a teaching class as intro to Deep learning and pytorch.
 
 # Datasets
 ## Repositories
+[Seaborn datasets](https://github.com/mwaskom/seaborn-data) are very easy to use for testing:
+
+```python
+import seaborn as sns
+cars_pd= sns.load_dataset('mpg')
+```
 
 https://archive.ics.uci.edu/ml/machine-learning-databases/
 
