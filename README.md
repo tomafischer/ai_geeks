@@ -40,5 +40,5 @@ https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequali
 
 
 # Statistics
-
+[Summary for matplot and Seaborn snippets](https://github.com/tomafischer/ai_geeks/blob/main/statistics/Plot_snippets.ipynb)
 
