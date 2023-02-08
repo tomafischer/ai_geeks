@@ -15,6 +15,8 @@ if(equals(length(items('Apply_to_each')?['Activity Start']),0),
 ```
 ## Excel
 [Date Time explained](https://www.myonlinetraininghub.com/excel-date-and-time)
+
+[Date parsing/formating explained](https://barretblake.dev/2022/08/function-friday-formatting-and-parsing-dates-and-times/?utm_source=rss&utm_medium=rss&utm_campaign=function-friday-formatting-and-parsing-dates-and-times)
 ### DateTime conversions
 ```python
 # from Excel float to minute precision
