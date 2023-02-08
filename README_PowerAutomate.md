@@ -33,4 +33,9 @@ if(empty(items('Apply_to_each')?['Review Date']),
                  'Eastern Standard Time', 
                  'UTC')
  )
+ 
+ addSeconds: 
+ -> "1900-02-14T07:06:40.0000000"
+ convertTimezone to UTC
+ -> "2022-09-22T14:00:00.0000000Z"
  ```
