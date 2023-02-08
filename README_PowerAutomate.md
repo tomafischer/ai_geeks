@@ -38,4 +38,19 @@ if(empty(items('Apply_to_each')?['Review Date']),
  -> "1900-02-14T07:06:40.0000000"
  convertTimezone to UTC
  -> "2022-09-22T14:00:00.0000000Z"
- ```
+ 
+# Parsing 12/20/21A and regular dates mixed 
+if(empty(items('Apply_to_each')?['Start Date']), 
+   null ,
+   if(not(contains(items('Apply_to_each')?['Start Date'], '/')),
+        convertTimeZone(string(addSeconds('1899-12-30 00:00:00', 
+                                        int(first(split(string(mul(float(items('Apply_to_each')?['Start Date']),86400 )),'.'))))), 
+                                        'Eastern Standard Time', 
+                                        'UTC'
+                        ),
+      if(greater(nthIndexOf(items('Apply_to_each')?['Start Date'],'A',1), -1), 
+         parseDateTime(slice(items('Apply_to_each')?['Start Date'], 0, add(nthIndexOf(items('Apply_to_each')?['Start Date'], '/', 2), 3)),  'en-US'),
+         parseDateTime(items('Apply_to_each')?['Start Date'], 'en-US')
+        )
+     )
+ )
