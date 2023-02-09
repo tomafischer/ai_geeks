@@ -13,6 +13,11 @@ if(equals(length(items('Apply_to_each')?['Activity Start']),0),
    items('Apply_to_each')?['Activity Start']
   )
 ```
+
+## Trigger user name
+```
+triggerOutputs()['headers']['x-ms-user-name']
+```
 ## Excel
 [Date Time explained](https://www.myonlinetraininghub.com/excel-date-and-time)
 
