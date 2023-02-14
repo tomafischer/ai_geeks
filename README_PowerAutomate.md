@@ -7,15 +7,21 @@ if(empty(items('Apply_to_each')?['Activity Start']), null, items('Apply_to_each'
 ```
 
 use of length function might be better sometimes, 
-```
+```python
 if(equals(length(items('Apply_to_each')?['Activity Start']),0), 
    null, 
    items('Apply_to_each')?['Activity Start']
   )
+
+# check variables for null (note this is the actual name not the header name)
+if(empty(variables('end_date')),
+   null,
+   variables('end_date')
+   )
 ```
 
 ## Trigger user name
-```
+```python
 triggerOutputs()['headers']['x-ms-user-name']
 ```
 ## Excel
