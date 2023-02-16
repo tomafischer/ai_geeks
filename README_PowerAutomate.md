@@ -29,7 +29,7 @@ triggerOutputs()['headers']['x-ms-user-name']
 
 [Date parsing/formating explained](https://barretblake.dev/2022/08/function-friday-formatting-and-parsing-dates-and-times/?utm_source=rss&utm_medium=rss&utm_campaign=function-friday-formatting-and-parsing-dates-and-times)
 
-[Reading a long excel table]([https://learntoilluminate.com/2022/07/power-automate-retrieve-more-than-5000-records-from-dataverse-or-dynamics-365-ce-crm/#:~:text=Using%20Power%20Automate%2C%20We%20can,total%20count%20is%2010139%20records.](https://learntoilluminate.com/2023/01/power-automate-retrieve-over-5000-records-from-dataverse-or-dynamics-365-ce-crm-and-create-csv-file/)
+[Reading a long excel table](https://learntoilluminate.com/2023/01/power-automate-retrieve-over-5000-records-from-dataverse-or-dynamics-365-ce-crm-and-create-csv-file/)
 ### DateTime conversions
 ```python
 # from Excel float to minute precision
