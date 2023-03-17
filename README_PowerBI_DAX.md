@@ -7,6 +7,7 @@
 
 ## DAX Awesomeness
 - DAX Formater : http://www.daxformatter.com/  
+- Color lookup: https://htmlcolorcodes.com/colors/
 - DAX do online coder: http://dax.do  
 - DAX patterns: https://www.daxpatterns.com/
 - good best practise: https://help.zebrabi.com/article/90-star-schema
