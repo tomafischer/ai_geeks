@@ -34,6 +34,8 @@ triggerOutputs()['headers']['x-ms-user-name']
 ```python
 ## EST now as date
 convertTimeZone(utcNow(), 'UTC','Eastern Standard Time')
+---> 2023-03-22T16:14:47.9133108
+formatDateTime(convertTimeZone(utcNow(), 'UTC','Eastern Standard Time'), 'yyyy-MM-dd HH:mm:ss')
 ---> 2023-03-22 15:23:10
 
 ## EST Today in iso string
