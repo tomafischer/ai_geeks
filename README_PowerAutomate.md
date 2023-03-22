@@ -32,6 +32,15 @@ triggerOutputs()['headers']['x-ms-user-name']
 [Reading a long excel table](https://learntoilluminate.com/2023/01/power-automate-retrieve-over-5000-records-from-dataverse-or-dynamics-365-ce-crm-and-create-csv-file/)
 ### DateTime conversions
 ```python
+## EST now as date
+convertTimeZone(utcNow(), 'UTC','Eastern Standard Time')
+---> 2023-03-22 15:23:10
+
+## EST Today in iso string
+concat(formatDateTime(convertTimeZone(utcNow(), 'UTC','Eastern Standard Time'),'yyyy-MM-dd'),
+       ' 00:00:00' )
+ --> 2023-03-22 00:00:00
+       
 # from Excel float to minute precision
 if(empty(items('Apply_to_each')?['Review Date']), 
    null, 
