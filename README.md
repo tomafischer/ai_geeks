@@ -24,6 +24,7 @@ I put together a teaching class as intro to Deep learning and pytorch.
 
 
 # Datasets
+[Mocked Data Generator](https://mockaroo.com/)
 ## Repositories
 [Seaborn datasets](https://github.com/mwaskom/seaborn-data) are very easy to use for testing:
 
