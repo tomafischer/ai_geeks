@@ -83,7 +83,7 @@ if(empty(items('Apply_to_each')?['Start Date']),
 # parsing  08/21/2026, 02/14/2022 A, or excel timestamp
 if(empty(items('Apply_to_each')?['Start']), 
    null ,   
-   if(not(contains(items('Apply_to_each')?['Start)'], '/')),
+   if(not(contains(items('Apply_to_each')?['Start'], '/')),
       convertTimeZone(string(addSeconds('1899-12-30 00:00:00', 
                                         int(first(split(string(mul(float(items('Apply_to_each')?['Start']),86400 )),'.'))))), 
                                         'Eastern Standard Time', 
