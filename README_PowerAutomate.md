@@ -19,6 +19,11 @@ if(empty(variables('end_date')),
    variables('end_date')
    )
 ```
+## filtering empty values from array or excel 
+[detailed blog](https://www.spguides.com/power-automate-filter-array/)
+```python
+@equals(item()?['Location'], 'Chicago')
+```
 
 ## Trigger user name
 ```python
