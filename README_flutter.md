@@ -19,3 +19,8 @@ open -a simulator
 
 ## Widgets
 Every widget defines a `build()` method that's automatically called every time the widget's circumstances change so that the widget is always up to date.
+
+
+## Classes
+sliver-workshop : flutter.dev/go/sliver-workshop
+https://www.youtube.com/watch?v=YY-_yrZdjGc
