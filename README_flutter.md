@@ -5,6 +5,10 @@
 ```bash
 # check system
 flutter doctor
+
+# fix issues
+dart fix --dry-run
+dart fix --apply
 ```
 ## Visual Studio
 CMD + Shift + P  -> Flutter new project -> Apllication
@@ -15,6 +19,7 @@ analysis_options.yaml  -> how strict flutter should be in the coding
 # for ios
 open -a simulator
 ```
+
 
 
 ## Widgets
