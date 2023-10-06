@@ -45,8 +45,13 @@ flutter pub add provider
 flutter pub add firebase_ui_auth
 ```
 ### Friebase cli
+DO NOT install the version via dart!!
+Folow (firebase cli)[https://firebase.google.com/docs/cli#install-cli-mac-linux]
 ```bash
-dart pub global activate flutterfire_clil
+# DO NOT do this: dart pub global activate flutterfire_clil
+
+# THIS is the right way to do it
+curl -sL https://firebase.tools | bash
 ```
 dart pub global activate flutterfire_cli
 
