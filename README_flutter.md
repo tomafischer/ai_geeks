@@ -10,11 +10,25 @@ flutter doctor
 dart fix --dry-run
 dart fix --apply
 ```
-## Visual Studio
+## Rnnig flutter apps
+### Install packages
+```
+flutter pub get
+### Visual Studio shortcots
+```bash
 CMD + Shift + P  -> Flutter new project -> Apllication
+
+#### FORMATING life safer
+shift + options + F -> Format
+
+# refactor (light bulb)
+Command + .
+
 ```
 pubspec.yaml -> basic pack specs
 analysis_options.yaml  -> how strict flutter should be in the coding
+
+### Opening simulator
 ```bash
 # for ios
 open -a simulator
