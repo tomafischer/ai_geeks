@@ -34,7 +34,21 @@ analysis_options.yaml  -> how strict flutter should be in the coding
 open -a simulator
 ```
 
-
+## Firebase
+The flutter pub command will modity the pubspec.yaml
+```
+# for firebase
+flutter pub add firebase_core
+flutter pub add firebase_auth
+flutter pub add cloud_firestore
+flutter pub add provider
+flutter pub add firebase_ui_auth
+```
+### Friebase cli
+```bash
+dart pub global activate flutterfire_clil
+```
+dart pub global activate flutterfire_cli
 
 ## Widgets
 Every widget defines a `build()` method that's automatically called every time the widget's circumstances change so that the widget is always up to date.
