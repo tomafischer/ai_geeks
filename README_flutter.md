@@ -10,6 +10,14 @@ flutter doctor
 dart fix --dry-run
 dart fix --apply
 ```
+
+## Create project
+```
+flutter create <project name>
+
+# maybe add go_router
+flutter pub add go_router
+```
 ## Rnnig flutter apps
 ### Install packages
 ```
