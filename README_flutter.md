@@ -53,6 +53,13 @@ dart pub global activate flutterfire_clil
 
 # install firebase tools
 curl -sL https://firebase.tools | bash
+
+# login
+firebase login
+
+# see projects
+firebase projects:list
+
 ```
 dart pub global activate flutterfire_cli
 
