@@ -43,6 +43,9 @@ open -a simulator
 ```
 
 ## Firebase
+## Videos docs
+[You tube Cloud Firestore - Get to know](https://www.youtube.com/playlist?list=PLl-K7zZEsYLluG5MCVEzXAQ7ACZBCuZgZ)
+## Install flutter
 The flutter pub command will modity the pubspec.yaml
 ```
 # for firebase
@@ -54,7 +57,7 @@ flutter pub add firebase_ui_auth
 ```
 ### Friebase cli
 
-Folow (firebase cli)[https://firebase.google.com/docs/cli#install-cli-mac-linux]
+Folow [firebase cli](https://firebase.google.com/docs/cli#install-cli-mac-linux)
 ```bash
 # install firedart via dart
 dart pub global activate flutterfire_clil
