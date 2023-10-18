@@ -18,10 +18,14 @@ flutter create <project name>
 # maybe add go_router
 flutter pub add go_router
 ```
-## Rnnig flutter apps
+## Runnig flutter apps
 ### Install packages
 ```
+# install configured packages which are not locally downloaded
 flutter pub get
+# Popular packages
+flutter pub add google_fonts
+```
 ### Visual Studio shortcots
 ```bash
 CMD + Shift + P  -> Flutter new project -> Apllication
