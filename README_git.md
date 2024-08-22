@@ -3,12 +3,13 @@
 ## Basics branching
 ### Switching Branches (checkout old way)
 ```bash
+# list all branches (local and remote)
+git branch -a
 ####
-# git checkout replaced by:
-####
-# switching branchwes
+# git checkout replaced by: switch and restore
+### switching branchwes
 git switch <branch name>  # switch branchs
-# restoring files
+#### restoring files
 git restore <file_name> # reset the file to the last staged or repo
 git restore --staged <file_name
 ```
