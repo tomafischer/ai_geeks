@@ -1,6 +1,7 @@
 # GIT
 
 ## Basics branching
+### Switching Branches (checkout old way)
 ```bash
 ####
 # git checkout replaced by:
@@ -10,6 +11,16 @@ git switch <branch name>  # switch branchs
 # restoring files
 git restore <file_name> # reset the file to the last staged or repo
 git restore --staged <file_name
+```
+### New Branch
+```bash
+git switch -c <new_branchname>
+# or old way
+git checkout -b iss53
+# shorthand for
+$ git branch <new_branchname>
+$ git switch <branchname>
+
 ```
 
 ## Push new branch to remote
