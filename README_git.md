@@ -27,3 +27,23 @@ git branch -m <old_name> <new_name>
 git push -d <remote_name> <branchname>   # Delete remote - usually <remote_name> will be origin
 git branch -d <branchname>               # Delete local
 ```
+
+## Tagging
+```bash
+# show all the tags
+git tag
+# show all the tag details
+git tag -l -n
+
+# adding an anootated Tag
+# -a is for annotate 
+git tag -a v0.9 -m "Initial release version"
+
+# pusing all tags to origin
+git push origin --tags
+# pushing a specific tag
+git push origin v0.9
+
+# create a branch and checkout 
+git checkout -b tag/v0.9 v0.9
+```
