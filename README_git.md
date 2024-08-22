@@ -1,6 +1,11 @@
 # GIT
 
 ## Basics branching
+### pull specific branch from remote
+```bash
+git pull origin <branch_name> # e.g. git pull origin dev
+```
+
 ### Switching Branches (checkout old way)
 ```bash
 # list all branches (local and remote)
@@ -23,6 +28,13 @@ $ git branch <new_branchname>
 $ git switch <branchname>
 
 ```
+
+### Merge Branch
+```
+# go to target branch (e.g. git switch dev)
+git merge <
+```
+
 
 ## Push new branch to remote
 ```bash
